@@ -6,7 +6,7 @@ This blog is used to document technical notes, research, debugging records, and 
 
 ## Projects
 
-- [k3rn3l.net](https://k3rn3l.net) — Antivirus and security tool project.
+- <a href="https://k3rn3l.net" target="_blank" rel="noopener noreferrer">k3rn3l.net</a> — Antivirus and security tool project.
 
 ## Certifications
 

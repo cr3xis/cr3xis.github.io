@@ -23,8 +23,8 @@ Step 4에서는 **자료형(Float / Double)** 에 따라 값을 스캔하는 방
 
 튜토리얼 창에서 체력 값을 확인한 뒤, CE에서 Value Type을 Float로 설정한다.  
 아래 화면은 Float 타입으로 Health 값을 검색한 모습이다.
-<figure>
-  <img src="/assets/img/CheatEngine/Step4/1.png" alt="체력주소 찾기">
+<figure style="text-align: center;">
+  <img src="/assets/img/CheatEngine/Step4/1.png" alt="체력주소 찾기" style="display: block; margin: 0 auto;">
   <figcaption>체력주소 찾기</figcaption>
 </figure>
 
@@ -38,8 +38,8 @@ Step 4에서는 **자료형(Float / Double)** 에 따라 값을 스캔하는 방
 탄약 값은 Double 형태로 저장되어 있다.  
 따라서 Value Type을 Double로 설정하고 같은 방식으로 검색한다.
 
-<figure>
-  <img src="/assets/img/CheatEngine/Step4/2.png" alt="탄약주소 찾기">
+<figure style="text-align: center;">
+  <img src="/assets/img/CheatEngine/Step4/2.png" alt="탄약주소 찾기" style="display: block; margin: 0 auto;">
   <figcaption>탄약주소 찾기</figcaption>
 </figure>
 
@@ -52,8 +52,8 @@ Step 4에서는 **자료형(Float / Double)** 에 따라 값을 스캔하는 방
 Health와 Ammo 두 값 모두 찾았다면 CE 테이블에 추가한 뒤  
 Value를 더블 클릭하여 5000으로 수정한다.
 
-<figure>
-  <img src="/assets/img/CheatEngine/Step4/3.png" alt="각 주소의 벨류를 5000으로 변경">
+<figure style="text-align: center;">
+  <img src="/assets/img/CheatEngine/Step4/3.png" alt="각 주소의 벨류를 5000으로 변경" style="display: block; margin: 0 auto;">
   <figcaption>각 주소의 벨류를 5000으로 변경</figcaption>
 </figure>
 

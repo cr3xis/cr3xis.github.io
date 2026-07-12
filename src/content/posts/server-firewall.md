@@ -31,8 +31,8 @@ draft: false
 
 외부 트래픽은 먼저 VCN을 통과한다.  
 따라서 인스턴스에 도달하기 전에 VCN에서 해당 포트를 허용해줘야 한다.
-<figure>
-  <img src="/assets/img/server/02/1.png" alt="Virtual Cloud Network 화면">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/02/1.png" alt="Virtual Cloud Network 화면" style="display: block; margin: 0 auto;">
   <figcaption>Virtual Cloud Network 화면</figcaption>
 </figure>
 
@@ -41,23 +41,23 @@ Networking 메뉴에서 Virtual Cloud Networks로 이동한 뒤 현재 인스턴
 
 VCN 내부로 들어가면 보안 관련 항목이 보인다.
 
-<figure>
-  <img src="/assets/img/server/02/2.png" alt="Security 메뉴">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/02/2.png" alt="Security 메뉴" style="display: block; margin: 0 auto;">
   <figcaption>Security 메뉴</figcaption>
 </figure>
 
 Security 항목으로 이동하면 Security Lists가 있다.  
 이 리스트가 실제 인바운드와 아웃바운드 트래픽을 제어하는 역할을 한다.
 
-<figure>
-  <img src="/assets/img/server/02/3.png" alt="Security Lists">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/02/3.png" alt="Security Lists" style="display: block; margin: 0 auto;">
   <figcaption>Security Lists</figcaption>
 </figure>
 
 현재 인스턴스가 연결된 Security List를 선택한 뒤 Security Rules 탭으로 들어간다.
 
-<figure>
-  <img src="/assets/img/server/02/4.png" alt="Ingress Rules 설정 화면">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/02/4.png" alt="Ingress Rules 설정 화면" style="display: block; margin: 0 auto;">
   <figcaption>Ingress Rules 설정 화면</figcaption>
 </figure>
 

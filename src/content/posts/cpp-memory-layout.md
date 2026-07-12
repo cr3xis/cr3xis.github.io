@@ -23,8 +23,8 @@ Windows 기준으로 보면 프로그램은 실행될 때 운영체제가 정해
 그 구조를 자연스럽게 따라가며 정리하고, 각 영역이 실제 코드에서 어떤 의미로 연결되는지도 함께 설명한다.
 
 ---
-<figure>
-  <img src="/assets/img/CS/02/Area.png" alt="메모리 배치 구조">
+<figure style="text-align: center;">
+  <img src="/assets/img/CS/02/Area.png" alt="메모리 배치 구조" style="display: block; margin: 0 auto;">
   <figcaption>메모리 배치 구조</figcaption>
 </figure>
 

@@ -50,8 +50,8 @@ input :
 아래 이미지는 분석 과정에서 확인한 메인 함수의 흐름이다.
 
 _x64 Main_
-<figure>
-  <img src="/assets/img/Rev-basic/Rev-basic-0/Main_asm.png" alt="IDA에서 확인한 main 함수">
+<figure style="text-align: center;">
+  <img src="/assets/img/Rev-basic/Rev-basic-0/Main_asm.png" alt="IDA에서 확인한 main 함수" style="display: block; margin: 0 auto;">
   <figcaption>IDA에서 확인한 main 함수</figcaption>
 </figure>
 
@@ -84,8 +84,8 @@ int __fastcall main(int argc, const char **argv, const char **envp)
 
 아래 이미지는 해당 함수 내부의 핵심 부분을 보여준다.
 
-<figure>
-  <img src="/assets/img/Rev-basic/Rev-basic-0/Sub_asm.png" alt="IDA에서 확인한 검증 함수">
+<figure style="text-align: center;">
+  <img src="/assets/img/Rev-basic/Rev-basic-0/Sub_asm.png" alt="IDA에서 확인한 검증 함수" style="display: block; margin: 0 auto;">
   <figcaption>IDA에서 확인한 검증 함수</figcaption>
 </figure>
 _x64 Sub_

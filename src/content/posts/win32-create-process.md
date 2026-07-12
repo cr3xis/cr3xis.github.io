@@ -148,8 +148,8 @@ int main()
 }
 
 ```
-<figure>
-  <img src="/assets/img/Win32/03/Result.png" alt="Result">
+<figure style="text-align: center;">
+  <img src="/assets/img/Win32/03/Result.png" alt="Result" style="display: block; margin: 0 auto;">
   <figcaption>Result</figcaption>
 </figure>
 

@@ -16,8 +16,8 @@ draft: false
 
 
 ## 1. 인스턴스 생성
-<figure>
-  <img src="/assets/img/server/01/1.png" alt="Create a VM instance">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/1.png" alt="Create a VM instance" style="display: block; margin: 0 auto;">
   <figcaption>Create a VM instance</figcaption>
 </figure>
 
@@ -30,8 +30,8 @@ Oracle Cloud에서 인스턴스를 생성한다.
 
 ## 2. Basic 설정
 
-<figure>
-  <img src="/assets/img/server/01/2.png" alt="Basic information">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/2.png" alt="Basic information" style="display: block; margin: 0 auto;">
   <figcaption>Basic information</figcaption>
 </figure>
 
@@ -43,8 +43,8 @@ Change Image를 통해 원하는 OS를 선택하면 되는데 나는 Ubuntu 22.0
 
 ## 3. Networking 설정
 
-<figure>
-  <img src="/assets/img/server/01/3.png" alt="Networking">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/3.png" alt="Networking" style="display: block; margin: 0 auto;">
   <figcaption>Networking</figcaption>
 </figure>
 
@@ -53,8 +53,8 @@ Change Image를 통해 원하는 OS를 선택하면 되는데 나는 Ubuntu 22.0
 
 SSH 관련 설정도 이 단계에서 함께 설정한다.
 
-<figure>
-  <img src="/assets/img/server/01/4.png" alt="SSH">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/4.png" alt="SSH" style="display: block; margin: 0 auto;">
   <figcaption>SSH</figcaption>
 </figure>
 
@@ -65,8 +65,8 @@ public / private 키를 다운로드 받고 잘 보관해야 한다.
 
 ## 4. 인스턴스 생성 완료
 
-<figure>
-  <img src="/assets/img/server/01/5.png" alt="Instance">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/5.png" alt="Instance" style="display: block; margin: 0 auto;">
   <figcaption>Instance</figcaption>
 </figure>
 
@@ -81,15 +81,15 @@ public / private 키를 다운로드 받고 잘 보관해야 한다.
 
 ## 5. Reserved Public IP 연결
 
-<figure>
-  <img src="/assets/img/server/01/6.png" alt="Reserved Public IPs">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/6.png" alt="Reserved Public IPs" style="display: block; margin: 0 auto;">
   <figcaption>Reserved Public IPs</figcaption>
 </figure>
 
 공인 IP가 자동으로 할당되지 않았다면 Networking 메뉴에서 Reserved Public IPs로 이동한다.
 
-<figure>
-  <img src="/assets/img/server/01/7.png" alt="Reserved Public IPs">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/7.png" alt="Reserved Public IPs" style="display: block; margin: 0 auto;">
   <figcaption>Reserved Public IPs</figcaption>
 </figure>
 
@@ -102,8 +102,8 @@ public / private 키를 다운로드 받고 잘 보관해야 한다.
 
 ## 6. 인스턴스에 공인 IP 연결
 
-<figure>
-  <img src="/assets/img/server/01/8.png" alt="Attached VNICs">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/8.png" alt="Attached VNICs" style="display: block; margin: 0 auto;">
   <figcaption>Attached VNICs</figcaption>
 </figure>
 
@@ -111,16 +111,16 @@ public / private 키를 다운로드 받고 잘 보관해야 한다.
 Compute에서 해당 인스턴스로 들어간 뒤 Networking - Attached VNICs를 선택한다.  
 해당 네트워크를 누르게 되면 아래와 같이 뜬다.  
 
-<figure>
-  <img src="/assets/img/server/01/9.png" alt="IP administration">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/9.png" alt="IP administration" style="display: block; margin: 0 auto;">
   <figcaption>IP administration</figcaption>
 </figure>
 
 IP administration 탭으로 들어가면 현재 Private IP 정보가 표시된다.  
 연결하고자 하는 네트워크 우측의 점 3개 옵션에 - Edit 을 클릭한다.  
 
-<figure>
-  <img src="/assets/img/server/01/10.png" alt="Edit Private IP Address">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/10.png" alt="Edit Private IP Address" style="display: block; margin: 0 auto;">
   <figcaption>Edit Private IP Address</figcaption>
 </figure>
 
@@ -132,8 +132,8 @@ Reserved IP Address 항목에서 이전에 생성해둔 공인 IP를 선택한 �
 
 ## 7. 정상적으로 연결되었는지 확인
 
-<figure>
-  <img src="/assets/img/server/01/11.png" alt="인스턴스 연결 상태 확인">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/01/11.png" alt="인스턴스 연결 상태 확인" style="display: block; margin: 0 auto;">
   <figcaption>인스턴스 연결 상태 확인</figcaption>
 </figure>
 

@@ -38,8 +38,8 @@ draft: false
 ## 2. DNS A 레코드 추가 및 Proxy 활성화
 
 Cloudflare DNS 설정에서 A 레코드를 추가했다.
-<figure>
-  <img src="/assets/img/server/03/01.png" alt="DNS 설정">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/03/01.png" alt="DNS 설정" style="display: block; margin: 0 auto;">
   <figcaption>DNS 설정</figcaption>
 </figure>
 
@@ -55,8 +55,8 @@ Proxy를 활성화하면 DNS 조회 시 오리진 서버 IP가 아니라 Cloudfl
 
 정상적으로 추가가 되면 아래와 같은 형태로 레코드가 등록된다.
 
-<figure>
-  <img src="/assets/img/server/03/02.png" alt="DNS 레코드 등록 상태">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/03/02.png" alt="DNS 레코드 등록 상태" style="display: block; margin: 0 auto;">
   <figcaption>DNS 레코드 등록 상태</figcaption>
 </figure>
 
@@ -112,8 +112,8 @@ sudo certbot renew --dry-run
 
 Cloudflare 대시보드에서 SSL/TLS를 Full Strict로 설정한다.
 
-<figure>
-  <img src="/assets/img/server/03/03.png" alt="Cloudflare SSL/TLS">
+<figure style="text-align: center;">
+  <img src="/assets/img/server/03/03.png" alt="Cloudflare SSL/TLS" style="display: block; margin: 0 auto;">
   <figcaption>Cloudflare SSL/TLS</figcaption>
 </figure>
 

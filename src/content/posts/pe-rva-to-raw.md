@@ -92,8 +92,8 @@ NT_HEADER 구조체의 VirtualAddress는 RVA인데 이름 떄문에 VA를 의미
 
 대부분 자료를 찾아보면 이론적으로만 설명하고 임의로 부여를 해서 하기에 잘 이해가 되지 않았다.  
 나는 Notepad.exe를 기준으로 직접 EntryPoint의 RAW를 찾아보도록 하였다.  
-<figure>
-  <img src="/assets/img/CS/RVATORAW/info.png" alt="PE View">
+<figure style="text-align: center;">
+  <img src="/assets/img/CS/RVATORAW/info.png" alt="PE View" style="display: block; margin: 0 auto;">
   <figcaption>PE View</figcaption>
 </figure>
 
@@ -134,8 +134,8 @@ RAW = 20C60
 
 이제 계산된 File Offset을 직접 확인해보았다.
 
-<figure>
-  <img src="/assets/img/CS/RVATORAW/dump.png" alt="Dump">
+<figure style="text-align: center;">
+  <img src="/assets/img/CS/RVATORAW/dump.png" alt="Dump" style="display: block; margin: 0 auto;">
   <figcaption>Dump</figcaption>
 </figure>
 

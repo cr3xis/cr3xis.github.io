@@ -23,8 +23,8 @@ Step 6에서는 단순히 값만 수정하는 것이 아니라,
 
 튜토리얼 창에서 보이는 값은 처음에 100으로 시작한다.  
 따라서 CE에서도 100을 기준으로 첫 스캔을 진행한다.
-<figure>
-  <img src="/assets/img/CheatEngine/Step6/1.png" alt="초기 값 100 검색">
+<figure style="text-align: center;">
+  <img src="/assets/img/CheatEngine/Step6/1.png" alt="초기 값 100 검색" style="display: block; margin: 0 auto;">
   <figcaption>초기 값 100 검색</figcaption>
 </figure>
 
@@ -38,8 +38,8 @@ Step 6에서는 단순히 값만 수정하는 것이 아니라,
 튜토리얼 창에서 **Change value** 버튼을 누르면 값이 920으로 변경된다.  
 CE에서도 검색 값을 920으로 바꾸고 *Next Scan*을 수행한다.
 
-<figure>
-  <img src="/assets/img/CheatEngine/Step6/2.png" alt="&quot;Change value&quot; 클릭 후 값 920으로 검색">
+<figure style="text-align: center;">
+  <img src="/assets/img/CheatEngine/Step6/2.png" alt="&quot;Change value&quot; 클릭 후 값 920으로 검색" style="display: block; margin: 0 auto;">
   <figcaption>&quot;Change value&quot; 클릭 후 값 920으로 검색</figcaption>
 </figure>
 
@@ -51,8 +51,8 @@ CE에서도 검색 값을 920으로 바꾸고 *Next Scan*을 수행한다.
 
 남은 주소를 테이블에 추가한 뒤 오른쪽버튼을 클릭하여 **Find out what writes to this address**를 선택한다.
 
-<figure>
-  <img src="/assets/img/CheatEngine/Step6/2-1.png" alt="&quot;Find out what writes to this address&quot; 선택">
+<figure style="text-align: center;">
+  <img src="/assets/img/CheatEngine/Step6/2-1.png" alt="&quot;Find out what writes to this address&quot; 선택" style="display: block; margin: 0 auto;">
   <figcaption>&quot;Find out what writes to this address&quot; 선택</figcaption>
 </figure>
 
@@ -65,8 +65,8 @@ CE에서도 검색 값을 920으로 바꾸고 *Next Scan*을 수행한다.
 
 튜토리얼에서 Change value를 다시 눌러보면 해당 주소에 값을 쓰는 명령어가 추적 창에 나타난다.
 
-<figure>
-  <img src="/assets/img/CheatEngine/Step6/3.png" alt="&quot;Change value&quot; 클릭 후 나타난 코드">
+<figure style="text-align: center;">
+  <img src="/assets/img/CheatEngine/Step6/3.png" alt="&quot;Change value&quot; 클릭 후 나타난 코드" style="display: block; margin: 0 auto;">
   <figcaption>&quot;Change value&quot; 클릭 후 나타난 코드</figcaption>
 </figure>
 
@@ -80,8 +80,8 @@ CE에서도 검색 값을 920으로 바꾸고 *Next Scan*을 수행한다.
 
 Advanced Options에 표시된 edx 값(실제 주소)을 복사한 뒤 CE에서 Hex 옵션을 체크하고 이 주소를 그대로 검색한다.
 
-<figure>
-  <img src="/assets/img/CheatEngine/Step6/4.png" alt="포인터 주소 검색 및 테이블 추가">
+<figure style="text-align: center;">
+  <img src="/assets/img/CheatEngine/Step6/4.png" alt="포인터 주소 검색 및 테이블 추가" style="display: block; margin: 0 auto;">
   <figcaption>포인터 주소 검색 및 테이블 추가</figcaption>
 </figure>
 
@@ -95,8 +95,8 @@ Advanced Options에 표시된 edx 값(실제 주소)을 복사한 뒤 CE에서 H
 테이블에 추가된 포인터 항목을 보면 해당 주소가 아까 찾았던 값의 위치를 가리키고 있음을 확인할 수 있다.  
 이제 이를 CE 포인터로 등록하기 위해 **Add Address Manually → Pointer 체크** 후 아래와 같이 입력한다.
 
-<figure>
-  <img src="/assets/img/CheatEngine/Step6/5.png" alt="포인터 주소와 오프셋 추가">
+<figure style="text-align: center;">
+  <img src="/assets/img/CheatEngine/Step6/5.png" alt="포인터 주소와 오프셋 추가" style="display: block; margin: 0 auto;">
   <figcaption>포인터 주소와 오프셋 추가</figcaption>
 </figure>
 
@@ -108,8 +108,8 @@ Advanced Options에 표시된 edx 값(실제 주소)을 복사한 뒤 CE에서 H
 
 포인터를 등록한 뒤 Value를 5000으로 수정하고 Active 체크를 하게되면 값이 고정된다.
 
-<figure>
-  <img src="/assets/img/CheatEngine/Step6/6.png" alt="포인터 값 5000으로 설정 및 고정">
+<figure style="text-align: center;">
+  <img src="/assets/img/CheatEngine/Step6/6.png" alt="포인터 값 5000으로 설정 및 고정" style="display: block; margin: 0 auto;">
   <figcaption>포인터 값 5000으로 설정 및 고정</figcaption>
 </figure>
 

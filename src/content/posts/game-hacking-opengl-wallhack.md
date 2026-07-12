@@ -26,8 +26,8 @@ draft: false
 
 월핵을 구현하는 방식은 게임마다 그래픽 라이브러리가 다르기 때문에 조금씩 달라지게 됩니다.  
 
-<figure>
-  <img src="/assets/img/GameHacking/OpenGL/wallhack1.png" alt="wallhack">
+<figure style="text-align: center;">
+  <img src="/assets/img/GameHacking/OpenGL/wallhack1.png" alt="wallhack" style="display: block; margin: 0 auto;">
   <figcaption>wallhack</figcaption>
 </figure>
 ---
@@ -41,8 +41,8 @@ draft: false
 `Z Buffer`는 화면의 각 픽셀에 대해 깊이 값을 저장하는 버퍼로 렌더링 과정에서  
 현재 픽셀과 새롭게 그려질 픽셀의 깊이를 비교하여 더 가까운 물체만 화면에 출력합니다.  
 
-<figure>
-  <img src="/assets/img/GameHacking/OpenGL/zbuffer.png" alt="Z-buffer">
+<figure style="text-align: center;">
+  <img src="/assets/img/GameHacking/OpenGL/zbuffer.png" alt="Z-buffer" style="display: block; margin: 0 auto;">
   <figcaption>Z-buffer</figcaption>
 </figure>
 
@@ -88,8 +88,8 @@ glDepthFunc() 의 핵심적인 인자는 아래와 같습니다.
 glDepthFunc() 함수를 호출하는 주소를 역으로 추적했고,  
 기존에 사용하던 GL_LEQUAL을 GL_ALWAYS 로 패치해보았습니다.
 
-<figure>
-  <img src="/assets/img/GameHacking/OpenGL/memory1.png" alt="Memory">
+<figure style="text-align: center;">
+  <img src="/assets/img/GameHacking/OpenGL/memory1.png" alt="Memory" style="display: block; margin: 0 auto;">
   <figcaption>Memory</figcaption>
 </figure>
 
@@ -138,8 +138,8 @@ FF 15 D417BC1F        - call dword ptr [hw.dll+A917D4] ; { ->OPENGL32.glEnd }
 이는 `glBegin()` 과 `glEnd()` 사이에서 정점 정보를 직접 전달하는 전형적인 Immediate Mode 렌더링 구조입니다.  
 
 
-<figure>
-  <img src="/assets/img/GameHacking/OpenGL/glBegin1.png" alt="glBegin() 호출부">
+<figure style="text-align: center;">
+  <img src="/assets/img/GameHacking/OpenGL/glBegin1.png" alt="glBegin() 호출부" style="display: block; margin: 0 auto;">
   <figcaption>glBegin() 호출부</figcaption>
 </figure>
 
@@ -210,8 +210,8 @@ OpenGL의 깊이 테스트는 전역 상태로 관리되기 때문에, 단순히
 
 #### Glass Wall
 
-<figure>
-  <img src="/assets/img/GameHacking/OpenGL/GlassWall.png" alt="GlassWall">
+<figure style="text-align: center;">
+  <img src="/assets/img/GameHacking/OpenGL/GlassWall.png" alt="GlassWall" style="display: block; margin: 0 auto;">
   <figcaption>GlassWall</figcaption>
 </figure>
 
@@ -220,8 +220,8 @@ OpenGL의 깊이 테스트는 전역 상태로 관리되기 때문에, 단순히
 
 #### Chams
 
-<figure>
-  <img src="/assets/img/GameHacking/OpenGL/chams.png" alt="Chams">
+<figure style="text-align: center;">
+  <img src="/assets/img/GameHacking/OpenGL/chams.png" alt="Chams" style="display: block; margin: 0 auto;">
   <figcaption>Chams</figcaption>
 </figure>
 
@@ -229,8 +229,8 @@ OpenGL의 깊이 테스트는 전역 상태로 관리되기 때문에, 단순히
 
 #### WireFrame
 
-<figure>
-  <img src="/assets/img/GameHacking/OpenGL/wireframe.png" alt="wireframe">
+<figure style="text-align: center;">
+  <img src="/assets/img/GameHacking/OpenGL/wireframe.png" alt="wireframe" style="display: block; margin: 0 auto;">
   <figcaption>wireframe</figcaption>
 </figure>
 
@@ -240,8 +240,8 @@ OpenGL의 깊이 테스트는 전역 상태로 관리되기 때문에, 단순히
 
 #### Translucent
 
-<figure>
-  <img src="/assets/img/GameHacking/OpenGL/trans.png" alt="Translucent">
+<figure style="text-align: center;">
+  <img src="/assets/img/GameHacking/OpenGL/trans.png" alt="Translucent" style="display: block; margin: 0 auto;">
   <figcaption>Translucent</figcaption>
 </figure>
 

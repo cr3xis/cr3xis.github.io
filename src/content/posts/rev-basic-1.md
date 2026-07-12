@@ -48,8 +48,8 @@ input :
 ## 2. Main 함수 흐름
 
 _x64 Main_
-<figure>
-  <img src="/assets/img/Rev-basic/Rev-basic-1/Main_asm.png" alt="IDA에서 확인한 main 함수">
+<figure style="text-align: center;">
+  <img src="/assets/img/Rev-basic/Rev-basic-1/Main_asm.png" alt="IDA에서 확인한 main 함수" style="display: block; margin: 0 auto;">
   <figcaption>IDA에서 확인한 main 함수</figcaption>
 </figure>
 
@@ -63,8 +63,8 @@ _x64 Main_
 
 아래 이미지는 x64dbg로 살펴본 sub 함수 내부의 핵심 부분이다.
 
-<figure>
-  <img src="/assets/img/Rev-basic/Rev-basic-1/sub_function.png" alt="문자 비교를 수행하는 검증 함수">
+<figure style="text-align: center;">
+  <img src="/assets/img/Rev-basic/Rev-basic-1/sub_function.png" alt="문자 비교를 수행하는 검증 함수" style="display: block; margin: 0 auto;">
   <figcaption>문자 비교를 수행하는 검증 함수</figcaption>
 </figure>
 _x64 Sub_
