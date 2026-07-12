@@ -1,7 +1,8 @@
 ---
 title: Network Basic
 published: 2026-07-02
-description: 'Netowrk, LAN/WAN, Topology, Packet Switching의 기본 개념을 정리합니다.'
+description: 'Network, LAN/WAN, Topology, Packet Switching의 기본 개념을 정리합니다.'
+image: '/assets/img/Network/Basic/LAN.png'
 tags: ["Network", "LAN", "WAN", "Topology"]
 category: "Network"
 draft: false
