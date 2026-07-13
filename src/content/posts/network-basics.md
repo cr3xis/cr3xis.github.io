@@ -3,7 +3,7 @@ title: Network Basic
 published: 2026-07-02
 description: 'Network, LAN/WAN, Topology, Packet Switching의 기본 개념을 정리합니다.'
 image: '/assets/img/Network/Basic/LAN.png'
-tags: ["Network", "LAN", "WAN", "Topology"]
+tags: ["Network", "LAN", "WAN", "Topology, Casting"]
 category: "Network"
 draft: false
 ---
@@ -100,3 +100,17 @@ Topology는 네트워크 장치들이 어떤 형태로 연결되어 있는지를
 - 데이터를 전송하기 전에 논리적 연결이 설정됨 (연결형)
 - 각 패킷에는 식별 번호가 포함되어 있으며 모든 패킷을 전송하면 가상회선이 해제됨
 - 패킷들은 전송된 순서대로 도착함
+
+---
+
+## 5. 캐스팅(Casting) 전송 방식
+
+| 방식 | 통신 형태 | 설명 |
+| :--: | :--: | :--: |
+| **Unicast**   | 1 : 1   | 단일 송신자 → 단일 수신자 |
+| **Multicast** | 1 : N   | 단일 송신자 → 특정 그룹의 다수 수신자 |
+| **Broadcast** | 1 : All | 단일 송신자 → 동일 네트워크의 모든 호스트 |
+| **Anycast**   | 1 : 1   | 단일 송신자 → 동일 서비스를 제공하는 여러 노드 중 가장 가까운 노드 |
+
+
+---

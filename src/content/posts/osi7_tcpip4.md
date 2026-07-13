@@ -3,7 +3,7 @@ title: OSI 7 Layer & TCP/IP 4 Layer
 published: 2026-07-12
 description: 'OSI 7계층과 TCP/IP 4계층의 구조, 각 계층의 역할 및 대표 프로토콜을 정리합니다.'
 image: '/assets/img/Network/Osi7/osi7tcpip4.png'
-tags: [Network, OSI, TCP/IP, Layer]
+tags: [Network, OSI, TCP/IP, Layer, PDU]
 category: 'Network'
 draft: false
 ---
@@ -80,3 +80,20 @@ TCP/IP 모델은 실제 인터넷에서 사용하는 네트워크 모델로 OSI 
 - 네트워크 계층: 송/수신 IP 주소
 - 데이터 링크 계층: 송/수신 MAC 주소, FCS(트레일러)
 :::
+
+---
+
+## PDU (Protocol Data Unit)
+
+> 데이터는 계층을 거치면서 헤더가 추가되고 계층마다 다른 이름으로 불린다.
+
+| 계층          | PDU                          |
+| :-----------: | :----------------------------: |
+| **Application** | Data                         |
+| **Transport**   | Segment(TCP) / Datagram(UDP) |
+| **Network**     | Packet                       |
+| **Data Link**  | Frame                        |
+| **Physical**    | Bit                          |
+
+
+---
