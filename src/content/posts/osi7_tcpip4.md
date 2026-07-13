@@ -1,6 +1,6 @@
 ---
 title: OSI 7 Layer & TCP/IP 4 Layer
-published: 2026-07-12
+published: 2026-07-10T00:00:00
 description: 'OSI 7계층과 TCP/IP 4계층의 구조, 각 계층의 역할 및 대표 프로토콜을 정리합니다.'
 image: '/assets/img/Network/Osi7/osi7tcpip4.png'
 tags: [Network, OSI, TCP/IP, Layer, PDU]
