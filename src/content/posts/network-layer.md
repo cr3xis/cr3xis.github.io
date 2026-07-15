@@ -1,7 +1,7 @@
 ---
 title: L3 - Network Layer
 published: 2026-07-14T00:00:00
-description: 'OSI 3계층의 역할과 IP 주소, 라우팅, ICMP, NAT의 기본 개념을 정리합니다.'
+description: 'OSI 3계층의 역할과 핵심 개념을 정리합니다.'
 image: '/assets/img/Network/L3/ipv4.png'
 tags: [Network, L3, IPv4, IPv6, Routing, ICMP, NAT, Subnet, CIDR, Classful, routing, EGP, BGP]
 category: 'Network'
