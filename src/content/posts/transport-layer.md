@@ -2,7 +2,7 @@
 title: L4 - Transport Layer
 published: 2026-07-15T00:00:00
 description: 'OSI 4계층의 역할과 핵심 개념을 정리합니다.'
-image: ''
+image: '/assets/img/Network/L4/port.png'
 tags: [Network, L4, TCP, UDP, Port, Socket, Handshake]
 category: 'Network'
 draft: false
